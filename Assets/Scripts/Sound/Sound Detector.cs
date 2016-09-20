@@ -20,7 +20,7 @@ public class SoundDetector : MonoBehaviour {
 	private void OnTriggerEnter(Collider other)
 	{
 
-		if (other.tag == "Player" && m_Started = false)
+		if (other.tag == "Player" && m_Started == false)
 		{
 			m_Start = true;
 			m_Started = true;
