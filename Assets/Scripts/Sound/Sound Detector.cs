@@ -5,6 +5,7 @@ public class SoundDetector : MonoBehaviour {
 	
 	private GameObject m_Player;
 
+	public AudioSource m_audioSource;
 	private bool m_Start;	
 	private bool m_Started;
 
@@ -35,9 +36,10 @@ public class SoundDetector : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if (m_Start == true) 
+		if (m_Start == true && m_audioSource != null) 
 		{
-			//start playing the sound file (will add this when I have worked out how)
+			//start playing the sound file 
+			m_audioSource.Play();
 		}
 
 	}
