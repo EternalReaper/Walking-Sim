@@ -3,8 +3,11 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float MoveSpeed = 0.5f;
-    public float RotateSpeed = 1f;
+    public Transform head;
+
+    public float forwardSpeed = 0.5f;
+    public float strafeSpeed = 1f;
+    public float sprintSpeed = 1f;
 
     public float horizontalSpeed = 2.0F;
     public float verticalSpeed = 2.0F;
@@ -21,10 +24,15 @@ public class PlayerMovement : MonoBehaviour
     {
         float h = horizontalSpeed * Input.GetAxis("Mouse X");
         float v = verticalSpeed * Input.GetAxis("Mouse Y");
-        transform.Rotate(v, h, 0);
+        float f = forwardSpeed * Input.GetAxis("Vertical");
+        float s = strafeSpeed * Input.GetAxis("Horizontal");
+        float r = sprintSpeed * Input.GetAxis("Sprint");
+        cc.SimpleMove(transform.forward * f);
+        cc.SimpleMove(transform.right * s);
+        cc.SimpleMove(transform.forward * r);
 
-        transform.Rotate(Vector3.up * Input.GetAxis("Horizontal") * RotateSpeed);
-        cc.Move(transform.forward * Input.GetAxis("Vertical") * MoveSpeed);
-        cc.SimpleMove(Physics.gravity);
+        //transform.Rotate(v, h, 0);
+        transform.Rotate(0, h, 0);
+        head.Rotate(v, 0, 0);
     }
 }
