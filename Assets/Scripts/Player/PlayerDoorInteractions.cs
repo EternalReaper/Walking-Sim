@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerDoorInteractions : MonoBehaviour
-{
+public class PlayerDoorInteractions : MonoBehaviour {
 	float smooth = 2.0f;
 	float DoorOpenAngle = 90.0f;
 	float DoorCloseAngle = 0.0f;
@@ -11,7 +10,7 @@ public class PlayerDoorInteractions : MonoBehaviour
 
 
 
-	void  OnTriggerEnter ( Collider other  )
+	void  OnTriggerEnter ( Collider other  ) 
 	{
 		if (other.gameObject.tag == "Player")
 		{
