@@ -22,6 +22,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown("space"))
+        {
+            transform.Translate(Vector3.up * 100 * Time.deltaTime, Space.World);
+        }
+
         float h = horizontalSpeed * Input.GetAxis("Mouse X");
         float v = verticalSpeed * Input.GetAxis("Mouse Y");
         float f = forwardSpeed * Input.GetAxis("Vertical");
