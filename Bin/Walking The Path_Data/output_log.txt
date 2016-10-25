@@ -10,11 +10,17 @@ Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Pa
 Loading C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
+Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\GETween.dll (this message is harmless)
+Loading C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\GETween.dll into Unity Child Domain
+Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\GUIAnimatorFREE.dll (this message is harmless)
+Loading C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\GUIAnimatorFREE.dll into Unity Child Domain
+- Completed reload, in  0.099 seconds
 Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Sean\Documents\GitHub\Walking-Sim\Bin\Walking The Path_Data\Managed\System.dll (this message is harmless)
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
